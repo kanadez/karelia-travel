@@ -1,0 +1,8 @@
+User-agent: *
+Host: karelia-travel.pro
+Disallow: /admin/
+Disallow: /cgi-bin/
+Disallow: /deleted/
+Disallow: /i/
+Disallow: /jq-ui/
+Disallow: /webstat/

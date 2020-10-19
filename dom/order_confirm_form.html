@@ -1,0 +1,30 @@
+<span class="confirm_form_caption">Тур: </span>
+<span id="tour_title_span"></span>
+<p><span class="confirm_form_caption">Полная стоимость: </span>
+<span id="tour_price_span"></span>
+<p><span class="confirm_form_caption">Дата заезда: </span>
+<span id="tour_settlement_span"></span>
+<p><span class="confirm_form_caption">Дата совершения заказа: </span>
+<span id="tour_order_span"></span>
+<p><span class="confirm_form_caption">Данные о туристах: </span>
+<br><table id="tourists_table" class="table1">
+   <tbody>
+      <tr id="header_tr">
+         <td id="id" class="table_header">Имя</td>
+         <td id="tour" class="table_header">Возраст</td>
+         <td id="client_data" class="table_header">Паспорт/Св-во о рождении</td>
+         <td id="phone" class="table_header">Номер телефона</td>
+         <td id="email" class="table_header">E-Mail</td>
+      </tr>
+   </tbody>
+</table>
+<div style="width:95%;text-align:center;margin-top:20px;">
+   <form id="moneta_form" method="post" action="https://www.payanyway.ru/assistant.htm">
+      <input type="hidden" name="MNT_ID" value="18410598" />
+      <input type="hidden" name="MNT_AMOUNT" value="" />
+      <input type="hidden" name="MNT_TRANSACTION_ID" value="" />
+      <input type="hidden" name="paymentSystem.unitId" value="2243990">
+      <input id="order_button" type="submit" class="sbmt" style="width:259px;margin-top:20px" value="Оплатить заказ" />
+      <button id="cancel_payment_button" class="sbmt transparent_sbmt" style="">Отмена</button>
+   </form>
+</div>

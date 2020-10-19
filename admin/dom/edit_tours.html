@@ -1,0 +1,19 @@
+<button id="back" onclick="editTourGroups()"><= Назад к группам</button>
+<p></p>
+<br>
+Название группы: <input id="group_title_input" style="width:48%" /><button onclick="saveGroupTitle()" id="save_group_title">Сохранить</button>
+<br>Описание: <input id="group_description_input" style="width:48%" /><button onclick="saveGroupDesc()" id="save_group_desc">Сохранить</button>
+<br>Изображение: 
+<br><img id="group_img" src="" style="width:200px" />
+<br><input id="group_photo_edit_input" type="file" name="file" data-url="upload.php" />
+<p>
+Элементы группы:
+<table id="tours_table" class="table1">
+   <tbody>
+      <tr class="header_tr">
+         <td class="table_header">Название тура</td>
+         <td class="table_header">Цена</td>
+         <td class="table_header">Действия</td>
+      </tr>
+   </tbody>
+</table>

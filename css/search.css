@@ -1,0 +1,35 @@
+#search_form{
+   height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    width: 51%;
+}
+
+div, span{
+   color:#333 !important;
+}
+
+#tour_select{
+   width: 427px;
+   font-size: 1em !important;
+   margin-top:20px;
+}
+
+.sbmt{
+   font-size: 1em;
+   width: 206px;
+   height: 49px;
+   
+   background-color: #f28533;
+    border-radius: 3px;
+    border-width: 0;
+    box-shadow: none;
+    color: #fff;
+    font-family: "Conv_Hattori_Hanzo";
+    margin-right: 10px;
+}
+
+.sbmt:hover{
+   opacity:0.8 !important;
+}

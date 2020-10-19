@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/admin.kks-ptz.ru/webstat"
+AuthUserFile /var/www/u0132078/data/etc/45253745.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

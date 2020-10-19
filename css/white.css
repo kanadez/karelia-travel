@@ -1,0 +1,112 @@
+#wrapper_div{
+   background: #fff;
+   height:auto;
+   padding-bottom: 20px;
+}
+
+ul li ul li a{
+   color: #aaa !important;
+} 
+
+ul li ul li a:hover{
+   color: #000 !important;
+} 
+
+
+ul li ul li{
+   background: #fff none repeat scroll 0 0 !important;
+}
+
+ul li ul li:hover{
+   opacity:1 !important;
+}
+
+#content_div{
+   margin-top:1%;
+   font-size:1.6em;
+   text-align:left;
+   min-height: 60vh;
+}
+
+#header_div{
+   background: #444;
+   box-shadow:none;
+   /*box-shadow: rgba(0,0,0,0.7) 0 0 15px;*/
+   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.47);
+}
+
+.header_link{
+   color:#aaa !important;
+}
+
+.header_link:hover{
+   color:#fff !important;
+}
+
+.active{
+   color:#fff !important;
+}
+
+#footer_div{
+   background:#eee;
+}
+
+.disabled{
+   background: #eee none repeat scroll 0 0 !important;
+    color: #333;
+}
+
+.disabled:hover{
+   opacity:1 !important;
+   cursor:default !important;
+}
+
+.pagination {
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+ul.pagination {
+  text-align: center;
+  display: block;
+  padding: 0;
+}
+
+ul.pagination li{
+   display: inline-block;
+   margin-right: 0px;
+}
+
+ul.pagination li a {
+   background-color: #fff;
+   border-radius: 3px !important;
+   float: left;
+   font-size: 0.8em;
+   line-height: 1.5em;
+   padding: 6px 12px;
+   text-decoration: none;
+}
+
+.link_button{
+   background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+   color: #2b587a !important;
+   box-shadow: none !important;
+   border: none !important;
+}
+
+.sbmt{
+   font-size: 1em;
+   width: 206px;
+   height: 49px;
+   background-color: #f28533;
+   border-radius: 3px;
+   border-width: 0;
+   box-shadow: none;
+   color: #fff;
+   font-family: "Conv_Hattori_Hanzo";
+   margin-right: 10px;
+}
+
+table td{
+   color: #333;
+}

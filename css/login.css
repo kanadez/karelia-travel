@@ -1,0 +1,40 @@
+#content_div{
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+input{
+   margin: 5px 0;
+   width: 250px;
+}
+
+#socialpanel{
+   margin-left: auto;
+   margin-right: auto;
+   width: 108px;
+}
+
+.pluso_link{
+   margin: 0 7px;
+}
+
+.login_button{
+   background: rgb(99,131,168);
+   border: none;
+   border-radius: 5px;
+   color: #fff;
+   font-weight: normal;
+   height: 50px;
+   margin-top: 12px;
+   padding: 10px;
+   text-align: center;
+   width:140px;
+}
+
+.login_button:hover{
+   background: rgb(134, 159, 187);
+}
+
+#success_notify{
+   margin: 24vh 0 0;
+}

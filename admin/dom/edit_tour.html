@@ -1,0 +1,53 @@
+<button id="back" onclick="editTourGroup(current_group)"><= Назад к группе туров</button>
+<h1>Редактирование тура</h1>
+<p></p>
+<br>
+<h3>Название тура:</h3> 
+<input id="tour_title_input" style="width:48%" />
+<p></p>
+<br>
+<h3>Тип:</h3> 
+<input id="tour_type0_input" type="radio" name="tour_type" class="tour_type" value=0 /><label for="tour_type0_input">Обычный</label>
+<br><input id="tour_type1_input" type="radio" name="tour_type" class="tour_type" value=1 /><label for="tour_type1_input">Горящий</label>
+<p></p>
+<br>
+<h3>Основное фото:</h3> 
+<img id="tour_img" src="" style="width:200px" />
+<br><input id="tour_photo_edit_input" type="file" name="file" data-url="upload.php" />
+<p></p>
+<br>
+<h3>Краткое описание:</h3> 
+<textarea id="tour_shortdesc_input" maxlength=200 placeholder="Введите краткое описание, не более 200 симоволов" style="width:48%" ></textarea>
+<p></p>
+<br>
+<h3>Полное описание:</h3> 
+<textarea id="tour_fulldesc_input" style="width:48%" ></textarea>
+<p></p>
+<br>
+<h3>Маршрут:</h3> 
+<textarea id="tour_route_input" style="width:48%" ></textarea>
+<p></p>
+<br>
+<h3>Описание стоимости:</h3> 
+<textarea id="tour_pricedesc_input" style="width:48%" ></textarea>
+<p></p>
+<br>
+<h3>Полная стоимость:</h3> 
+<input id="tour_price_input" style="width:48%" />
+<p></p>
+<br>
+<h3>Даты размещения:</h3> 
+<table id="tour_settlement_table" style="width:30%" class="table1">
+   <tbody></tbody>
+</table>
+<p></p>
+<br>
+<h3>Фотографии:</h3> 
+<div id="tour_photos_div"></div>
+<p></p>
+<br>
+<h3>Добавить фотографии:</h3> 
+<input id="tour_gallery_edit_input" type="file" name="file" multiple data-url="../catalog/upload.php" />
+<p></p>
+<br>
+<button onclick="saveTour()" id="save_tour_price">Сохранить данные</button>

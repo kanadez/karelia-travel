@@ -1,0 +1,240 @@
+#back_button{
+   background: #8C4A85;
+}
+
+.unread{
+   background: rgba(140,74,134,0.17);
+}
+
+.mywrapper{
+   border-radius: 3px;
+}
+
+   .friend_block{
+   	clear: both;
+   	height: 98px;
+   	padding: 20px 0 0 20px;
+   	width: 95%;
+   }
+   
+   .friendphoto_wrapper{
+   	border-radius: 38px;
+   	float: left;
+   	height: 75px;
+   	margin-bottom: 38px;
+   	margin-right: 15px;
+   	overflow: hidden;
+		width: 75px;
+   }
+   
+   .friend_image_w{
+   	width: 75px;
+   }
+   
+   .my_image_w{
+      width: 30px;
+   }
+   
+   .friend_image_h{
+   	height: 70px;
+   }
+   
+   .my_image_h{
+   	height: 30px;
+   }
+   
+   .frienddata_wrapper{
+   	float: left;
+   	height: 81px;
+   	width: 93%;
+   	padding: 20px 0 0;
+   }
+   
+   .myphoto_wrapper{
+      border-radius: 15px; 
+   	float: left;
+   	height: 30px;
+   	margin-right: 8px;
+   	overflow: hidden;
+   	width: 30px;
+   }
+   
+   .friendname{
+   	color: #000; 
+   	font-size: 1em;
+   	font-weight: bold;
+   	vertical-align: middle;
+   }
+   
+   .message_preview{
+      font-size:1em;
+      margin-top:5px;
+   }
+   
+   .msg_time{
+      color: #bbb !important;
+      float: left;
+      font-size: 1em;
+      line-height: 75px;
+      margin-left: 14px;
+   }
+   
+   .dialog_left_message_wrapper{
+      background: #ccc;
+      font-size: 2.6em;
+      margin-left: 17px;
+      min-height: 30px;
+      min-width: 75px;
+      padding: 15px;
+   }
+   
+   .dialog_right_message_wrapper{
+      background: #e7e7e7;
+      font-size: 2.6em;
+      margin-right: 17px;
+      min-height: 30px; 
+      min-width: 75px;
+      padding: 15px;
+   }
+   
+   .dialog_left_message_wrapper_arrow{
+      background: rgba(0, 0, 0, 0) url('../img/dialog_arrow_left.png') repeat scroll 0 center; 
+      float: left;
+      height: 44px;
+      width: 20px;
+   }
+   
+   .dialog_left_message_timespan{
+      color: #aaa;
+      float: left;
+      font-size: 1.7em;
+      margin-left: 15px;
+      margin-top: 33px;
+   }
+   
+   .dialog_right_message_timespan{
+      color: #aaa;
+      float: right;
+      font-size: 1.7em;
+      margin-right: 15px;
+      margin-top: 30px;
+   }
+   
+   .dialog_right_message_wrapper_arrow_div{
+      float: right;
+      height: 30px;
+      margin-top: -48px;
+      width: 20px;
+   }
+   
+   .dialog_right_message_wrapper_arrow_img{
+      height: 30px;
+      width: 20px;
+   }
+   
+   #message_input_wrapper{
+      background: #fff;
+      height: 225px;
+      margin-bottom: 15px;
+      text-align: center;
+      width: 100%;
+   }
+   
+   
+   
+   #send_button, .wide_button{
+      background: #682860;
+      border: none;
+      border-radius: 8px;
+      color: #fff;
+      font-size: 2.3em;
+      font-weight: normal;
+      height: 75px;
+      line-height: 0;
+      margin-top: 18px;
+      padding: 15px;
+      text-align: center;
+      width: 93%;
+   }
+   
+   .mywrapper{
+      margin-left: 84px;
+      padding-top: 6px;
+   }
+   
+   #delivery_report_div{
+      font-size: 2.6em;
+      margin: 30px 0;
+   }
+
+.friendphoto{
+	width: 100px;
+}
+
+.friend_status_indicator{
+	height: 10px;
+	border-radius: 5px;
+	margin: 45px 10px 45px 10px;
+	background: #2c4b5d;
+	width: 10px;
+	float: right;
+	display: none;
+}
+
+.message_wrapper{
+   width: 100%;
+   clear: both;
+   text-align: left;
+}
+
+.my_message{
+   max-width: 85%;
+   float: left;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.interlocutor_message{
+   max-width: 85%;
+   float: right;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.current_dialog{
+   background-color: #eee;
+}
+
+.current_dialog:hover{
+   cursor: default;
+}
+
+#feedback_div{
+   text-align: left;
+}
+
+.divider{
+   width:100%;
+   border-bottom:1px solid #eee;
+}
+
+.message_input{
+   width:86%;
+   height:50px;
+}
+
+a.sbmt{
+   background-color: rgba(255, 166, 0, 0.6);
+   border-width: 0;
+   font-family: "Conv_Hattori_Hanzo";
+   font-size: 1em;
+   height: 57px;
+   margin-right: 10px;
+   width: 284px;
+   color:rgb(255, 255, 255);
+   -webkit-box-shadow:none;
+   -moz-box-shadow:none;
+   box-shadow:none;
+   border-radius: 3px;
+   padding: 14px 33px;
+}

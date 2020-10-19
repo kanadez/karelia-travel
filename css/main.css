@@ -1,0 +1,479 @@
+#logo{
+   width:40px; 
+   margin-bottom:-18px
+}
+
+#logo_a{
+   float:left;
+   padding: 0 29px;
+}
+
+#wrapper_div{
+   margin:0;
+   padding:0;
+   height:90vh
+}
+
+button{
+   cursor: pointer;
+}
+
+a{
+   text-decoration:none;
+   outline: none;
+   color:#2B587A;
+}
+
+a:hover{
+   opacity: 0.7;
+}
+
+label{
+   color:#999;
+   margin-right:10px;
+   margin-top: 7px;
+}
+
+div, span{
+   color:#333;
+}
+
+a img{
+   border:none;
+}
+
+table{
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: none;
+	border-color: rgb(238, 238, 238);
+	border-collapse: collapse;
+}
+
+table th{
+	border-width: 1px;
+	padding: 1px;
+	border-style: solid;
+	border-color: rgb(238, 238, 238);
+	background-color: white;
+}
+
+table td{
+	border-width: 1px;
+	padding: 10px;
+	border-style: solid;
+	border-color: rgb(238, 238, 238);
+	background-color: white;
+   width:215px;
+   text-align:center;
+}
+
+.page_block{
+   width:100%; 
+   height:auto; 
+   color:#222;
+}
+
+.centered_message_div{
+   width:auto; 
+   height:auto; 
+   padding:10px; 
+   text-align:center;
+}
+
+.header_link{
+   color:rgb(230,230,230);
+   font-family: "Conv_Hattori_Hanzo";
+   font-size: 1.5em;
+   padding: 23px 29px;
+   background-color:rgba(255,255,255,0);
+   margin-left:-2px;
+}
+
+.header_link_blk{
+   color: rgb(168,168,168);
+}
+
+.header_link:hover{
+   opacity: 1 !important;
+   background-color:rgba(255,255,255,0.1);
+}
+
+a.active{
+   background-color:rgba(255,255,255,0.2);
+   cursor:default;
+}
+
+a.active:hover{
+   background-color:rgba(255,255,255,0.2) !important;
+   opacity:1 !important;
+   cursor:default;
+}
+
+#header_div{
+   background: rgba(68, 68, 68, 0.53) none repeat scroll 0 0;
+   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.47);
+   height: 64px;
+   opacity: 1;
+   width: 100%;
+}
+
+#content_div{
+   margin-top: 10%;
+   width: 951px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 6px;
+   text-align: left;
+}
+
+.button{
+   background-color: #ddd;
+   border-radius: 3px;
+   color: rgb(51, 51, 51);
+   padding: 10px 11px;
+   text-align: center;
+}
+
+.button:hover{     
+   background-color: #aaa;
+}
+
+.button:active{
+   -webkit-box-shadow:rgb(179, 179, 179) 0px 3px 8px 4px inset;
+   -moz-box-shadow:rgb(179, 179, 179) 0px 3px 8px 4px inset;
+   box-shadow:rgb(179, 179, 179) 0px 3px 8px 4px inset;  
+}
+
+textarea{
+   padding:6px;
+   resize:none;
+   border: 1px solid #ccc;
+   font-family: "Conv_Hattori_Hanzo";
+   color: #7f7f7f;
+}
+
+input{
+   border-color: #ddd;
+    border-radius: 0px;
+    border-style: solid;
+    border-width: 1px;
+    color: #323232;
+    font-family: "Conv_Hattori_Hanzo";
+    font-size: 1em;
+    padding: 8px;
+    width:189px;
+} 
+
+/* cupid green (inspired by okcupid.com)
+*******************************************************************************/
+button.cupid-green{
+   color:rgba(0, 0, 0, 0.74902);
+   text-shadow:rgba(255, 255, 255, 0.509804) 0px 1px 0px;
+   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFD5A8), to(#FFB463));
+   background-image: -webkit-linear-gradient(top, #FFD5A8, #FFB463);
+   background-image: -moz-linear-gradient(top, #FFD5A8, #FFB463);
+   background-image: -ms-linear-gradient(top, #FFD5A8, #FFB463);
+   background-image: -o-linear-gradient(top, #FFD5A8, #FFB463);
+   background-image: linear-gradient(top, #FFD5A8, #FFB463);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   font: bold 12px 'lucida grande', tahoma, verdana, arial, sans-serif;
+   line-height: 1;
+   padding: 10px 15px 10px 15px;
+   text-align: center;
+   width: 186px;
+   margin: 10px 0 0 0;
+   background-color: #FF8708;
+   -webkit-box-shadow: rgb(255, 232, 179) 0px 1px 0px 0px inset;
+   -moz-box-shadow: rgb(255, 232, 179) 0px 1px 0px 0px inset;
+   box-shadow: rgb(255, 232, 179) 0px 1px 0px 0px inset;
+   border: 1px solid;
+   border-top-color: #FFE0BF;
+   border-left-color: #E0B280;
+   border-bottom-color: #E0B17E;
+   border-right-color: #E0B07B;
+}
+
+button.cupid-green:hover{
+   background-image:-webkit-linear-gradient(-90deg,rgb(255,195,130) 0%,rgb(255,161,61) 100%);
+   background-image:-moz-linear-gradient(-90deg,rgb(255,195,130) 0%,rgb(255,161,61) 100%);
+   background-image:-o-linear-gradient(-90deg,rgb(255,195,130) 0%,rgb(255,161,61) 100%);
+   background-image:-ms-linear-gradient(-90deg,rgb(255,195,130) 0%,rgb(255,161,61) 100%);
+   -webkit-box-shadow:rgb(255, 217, 128) 0px 1px 0px 0px inset;
+   -moz-box-shadow:rgb(255, 217, 128) 0px 1px 0px 0px inset;
+   box-shadow:rgb(255, 217, 128) 0px 1px 0px 0px inset;
+   border-top-color:rgb(255, 206, 153);
+   border-right-color:rgb(224, 159, 90);
+   border-bottom-color:rgb(224, 159, 90);
+   border-left-color:rgb(224, 159, 90);
+   cursor:pointer;
+}
+
+button.cupid-green:active {
+   border: 1px solid #5b992b;
+   -webkit-box-shadow:rgb(166, 128, 40) 0px 0px 11px 4px inset;-moz-box-shadow:rgb(166, 128, 40) 0px 0px 11px 4px inset;
+   box-shadow:rgb(166, 128, 40) 0px 0px 11px 4px inset;
+   border-top-color:rgb(166, 128, 40);
+   border-top-width:1px;
+   border-right:1px inset rgb(166, 128, 40);
+   border-bottom:1px inset rgb(166, 128, 40);
+   border-left:1px outset rgb(166, 128, 40);
+} 
+
+.shadowed_text
+{
+   color:rgb(64, 64, 64);
+   text-shadow:rgba(0, 0, 0, 0.339844) 1px 1px 1px;   
+}
+
+.lighted_text
+{
+   color:rgb(128,128,128) !important;   
+}
+
+#head_panel_div{
+   height: 64px;
+   width: 1066px;
+   background: none;
+   margin-right: auto;
+   margin-left: auto;
+   line-height: 64px;
+   text-align: right;
+}
+
+a.sbmt{
+   background-color: rgba(255, 166, 0, 0.6);
+   border-width: 0;
+   font-family: "Conv_Hattori_Hanzo";
+   font-size: 1.6em;
+   height: 57px;
+   margin-right: 10px;
+   width: 284px;
+   color:rgb(255, 255, 255);
+   -webkit-box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   -moz-box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   border-radius: 3px;
+   padding: 14px 33px;
+}
+
+.orange_link{
+   font-size: 1em;
+   height: 49px;
+   background-color: #f28533;
+   border-radius: 3px;
+   border-width: 0;
+   box-shadow: none;
+   color: #fff;
+   font-family: "Conv_Hattori_Hanzo";
+   padding: 13px 44px;
+}
+
+.blue_button{
+   font-size: 1em;
+   height: 49px;
+   background-color: #6383a8;
+   border-radius: 3px;
+   border-width: 0;
+   box-shadow: none;
+   color: #fff;
+   font-family: "Conv_Hattori_Hanzo";
+   padding: 13px 44px;
+}
+
+.sbmt{
+   background-color: rgba(255, 166, 0, 0.6);
+   border-width: 0;
+   font-family: "Conv_Hattori_Hanzo";
+   font-size: 1.6em;
+   height: 57px;
+   margin-right: 10px;
+   width: 284px;
+   color:rgb(255, 255, 255);
+   -webkit-box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   -moz-box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   box-shadow:rgba(0, 0, 0, 0.670588) 0px 0px 3px 0px;
+   border-radius: 3px;
+}
+
+.sbmt_blk{
+   color:rgb(107,107,107);
+}
+
+.sbmt:hover{
+   opacity:0.8 !important;
+}
+
+.sbmt:active{
+   box-shadow:rgba(0, 0, 0, 0) 0px 0px 0px 0px;
+}
+
+table td{
+   background: none;
+   border: none;
+}
+
+.half-transparent{
+   opacity: 0.7;
+}
+
+.lefted td{
+   text-align: left !important;
+}
+
+.msg{
+   color:rgb(255, 255, 255);
+   font-size:1.6em;
+   margin:0px auto 0px auto;
+}
+
+.dark{
+   color: rgb(107,107,107) !important;
+}
+
+.long_msg{
+   color:rgb(255, 255, 255);
+   font-size:1.2em;
+   text-shadow:rgb(0, 0, 0) 0px 0px 2px;
+   margin:0px auto 0px auto;
+}
+
+.q_msg{
+   width:100px;
+   margin-bottom: 20px !important;
+}
+
+.centered_msg{
+   width:70%;
+}
+
+.top20{
+   margin-top:20px;
+}
+
+.top5{
+   margin-top:5px;
+}
+
+.top30{
+   margin-top:30px;
+}
+
+#to_reserve:hover{
+   background-color:rgba(0, 0, 0, 0.4) !important
+}
+
+.blue_link{
+   color: rgb(186,188,255) !important;
+}
+
+.extra_header{
+   font-size:1.1em;
+}
+
+#copyr_span{
+   opacity:0.5;
+   color: #000;
+}
+
+#index_welcome_header_div{
+   margin-top: 50px; 
+   font-size: 3.6em
+}
+
+#index_welcome_content_div{
+   font-size:1.7em;
+   margin-bottom:45px;
+}
+
+#to_reserve{
+   margin-top:20px; 
+   text-shadow:rgba(0, 0, 0, 0.701961) 0px 0px 0px;
+   width:457px;
+   -webkit-box-shadow:rgba(0, 0, 0, 0.298039) 0px 0px 0px 0px;
+   -moz-box-shadow:rgba(0, 0, 0, 0.298039) 0px 0px 0px 0px;
+   box-shadow:rgba(0, 0, 0, 0.298039) 0px 0px 0px 0px;
+   background-color:rgba(0, 0, 0, 0.439216);
+}
+
+#copyr_div{
+   width:100%;
+   text-align:center;
+}
+
+#footer_div{
+   width:100%;
+   height:100px;
+   background:#f5f5f5;
+   font-size:1.5em;
+   text-align: center;
+   padding: 40px 0 20px 0;
+   color:#000;
+   opacity: 0.8;
+}
+
+#footer_div a{
+   margin:5px;
+   color:#333;
+}
+
+#social_panel_div{
+   margin: 20px 0; 
+}
+
+#social_panel_div img{
+   width: 30px;
+   opacity: 0.5
+}
+
+/* Эти скрипты добавил я */
+
+
+.br50 {
+   margin-top: 80px;
+}
+
+.hot_badge{
+   background: #f28533 none repeat scroll 0 0;
+   border-radius: 0 0 6px;
+   color: #fff !important;
+   float: left;
+   margin-bottom: -50px;
+   opacity: 0.81;
+   text-align: center;
+   width: 100px;
+}
+
+.caption_msg{
+   color: #aaa !important;
+   font-size: 0.85em;
+   margin-bottom: 10px;
+   margin-top: 20px;
+   text-align: center;
+   width: 100%;
+}
+
+.centered_h3{
+   width: 100%;
+   text-align: center;
+   color: #333;
+}
+
+.alert{
+   background: #ffefe8 none repeat scroll 0 0;
+   border: 1px solid #e89b88;
+   display: none;
+   font-size: 0.9em;
+   margin: 10px auto 20px;
+   min-height: 20px;
+   padding: 10px;
+   text-align: center;
+   width: 250px;
+}
+
+.transparent_sbmt{
+   background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+   color: #2b587a !important;
+}

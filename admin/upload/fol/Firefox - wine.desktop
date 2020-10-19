@@ -1,0 +1,9 @@
+
+[Desktop Entry]
+Name=Mozilla Firefox
+Exec=env WINEPREFIX="/home/kanadez/.wine" wine C:\\\\Program\\ Files\\\\Mozilla\\ Firefox\\\\firefox.exe 
+Type=Application
+StartupNotify=true
+Path=/home/kanadez/.wine/dosdevices/c:/Program Files/Mozilla Firefox
+Icon=/home/kanadez/.local/share/icons/90c5_firefox.0.png
+Name[en_US]=Firefox - wine
